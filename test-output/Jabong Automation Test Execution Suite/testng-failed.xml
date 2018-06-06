@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Jabong Automation Test Execution Suite]">
+  <test thread-count="5" name="Jabong Test Scripts Regression(failed)">
+    <classes>
+      <class name="com.Jabong.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="TearDownExtentReport"/>
+          <include name="TearDown"/>
+          <include name="VerifyHomePageTitleTest"/>
+          <include name="SetUpExtentReport"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.Jabong.qa.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- Jabong Test Scripts Regression(failed) -->
+</suite> <!-- Failed suite [Jabong Automation Test Execution Suite] -->

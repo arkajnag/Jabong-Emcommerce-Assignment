@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26283" started-at="2018-06-06T04:55:32Z" finished-at="2018-06-06T04:55:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26283" started-at="2018-06-06T04:55:32Z" finished-at="2018-06-06T04:55:58Z">
+      <class name="com.Jabong.qa.TestCases.HomePageTest">
+        <test-method status="PASS" signature="SetUpExtentReport()[pri:0, instance:com.Jabong.qa.TestCases.HomePageTest@59494225]" name="SetUpExtentReport" is-config="true" duration-ms="372" started-at="2018-06-06T04:55:32Z" finished-at="2018-06-06T04:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpExtentReport -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.Jabong.qa.TestCases.HomePageTest@59494225]" name="SetUp" is-config="true" duration-ms="9328" started-at="2018-06-06T04:55:32Z" finished-at="2018-06-06T04:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyHomePageTitleTest()[pri:1, instance:com.Jabong.qa.TestCases.HomePageTest@59494225]" name="VerifyHomePageTitleTest" duration-ms="93" started-at="2018-06-06T04:55:42Z" finished-at="2018-06-06T04:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitleTest -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.Jabong.qa.TestCases.HomePageTest@59494225]" name="TearDown" is-config="true" duration-ms="2287" started-at="2018-06-06T04:55:42Z" finished-at="2018-06-06T04:55:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomePageTitleTest status=SUCCESS method=HomePageTest.VerifyHomePageTitleTest()[pri:1, instance:com.Jabong.qa.TestCases.HomePageTest@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.Jabong.qa.TestCases.HomePageTest@59494225]" name="SetUp" is-config="true" duration-ms="8824" started-at="2018-06-06T04:55:45Z" finished-at="2018-06-06T04:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SearchItemServiceTest(java.lang.String)[pri:2, instance:com.Jabong.qa.TestCases.HomePageTest@59494225]" name="SearchItemServiceTest" duration-ms="2228" started-at="2018-06-06T04:55:54Z" data-provider="getTestDataSheet" finished-at="2018-06-06T04:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeans]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItemServiceTest -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.Jabong.qa.TestCases.HomePageTest@59494225]" name="TearDown" is-config="true" duration-ms="1196" started-at="2018-06-06T04:55:56Z" finished-at="2018-06-06T04:55:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchItemServiceTest status=SUCCESS method=HomePageTest.SearchItemServiceTest(java.lang.String)[pri:2, instance:com.Jabong.qa.TestCases.HomePageTest@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="TearDownExtentReport()[pri:0, instance:com.Jabong.qa.TestCases.HomePageTest@59494225]" name="TearDownExtentReport" is-config="true" duration-ms="1021" started-at="2018-06-06T04:55:57Z" finished-at="2018-06-06T04:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownExtentReport -->
+      </class> <!-- com.Jabong.qa.TestCases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

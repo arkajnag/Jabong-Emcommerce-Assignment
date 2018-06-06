@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jabong Automation Test Execution Suite">
+  <test name="Jabong Test Scripts Regression">
+  <classes>
+  <class name="com.Jabong.qa.TestCases.HomePageTest"/>
+  </classes>
+  </test> 
+ </suite> 
